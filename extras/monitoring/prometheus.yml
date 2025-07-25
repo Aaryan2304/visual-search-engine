@@ -1,0 +1,21 @@
+# Prometheus Configuration for Visual Search Engine
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'visual-search-api'
+    static_configs:
+      - targets: ['visual_search_api:8000']
+    metrics_path: '/metrics'
+    scrape_interval: 30s
+
+  - job_name: 'chromadb'
+    static_configs:
+      - targets: ['chromadb:8000']
+    metrics_path: '/api/v1/metrics'
+    scrape_interval: 30s
+
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
