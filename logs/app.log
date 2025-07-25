@@ -1,0 +1,1212 @@
+2025-07-25 09:11:49,308 - root - INFO - Logging configured successfully.
+2025-07-25 09:11:49,327 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 09:11:49,460 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 09:11:49,477 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 09:16:12,289 - root - INFO - Logging configured successfully.
+2025-07-25 09:16:12,301 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 09:16:12,436 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 09:16:12,452 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 09:17:43,937 - root - INFO - Logging configured successfully.
+2025-07-25 09:17:43,950 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 09:17:44,067 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 09:17:44,084 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 09:24:36,527 - root - INFO - Logging configured successfully.
+2025-07-25 09:24:36,551 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 09:24:36,694 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 09:24:36,710 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 09:26:07,989 - root - INFO - Logging configured successfully.
+2025-07-25 09:32:57,039 - root - INFO - Logging configured successfully.
+2025-07-25 09:32:57,054 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 09:32:57,178 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 09:32:57,196 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 09:49:42,150 - root - INFO - Logging configured successfully.
+2025-07-25 09:51:32,532 - root - INFO - Logging configured successfully.
+2025-07-25 09:51:32,544 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 09:51:32,608 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 09:51:32,622 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 09:52:01,154 - root - INFO - Logging configured successfully.
+2025-07-25 10:54:34,912 - root - INFO - Logging configured successfully.
+2025-07-25 10:54:34,928 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 10:54:35,028 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 10:54:35,045 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 10:54:35,070 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 10:54:35,070 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 10:54:35,070 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 10:54:35,094 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 10:54:42,039 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 10:54:42,041 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 10:54:42,041 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 10:54:42,042 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 10:54:42,042 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 10:54:44,013 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 10:54:45,684 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 10:54:45,696 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 10:54:45,696 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 10:54:45,696 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 11:00:02,949 - src.api.main - INFO - GET / - Status: 200 - Time: 0.016s
+2025-07-25 11:00:03,729 - src.api.main - INFO - GET /favicon.ico - Status: 404 - Time: 0.005s
+2025-07-25 11:00:11,224 - src.api.main - INFO - GET /docs - Status: 200 - Time: 0.000s
+2025-07-25 11:00:11,790 - src.api.main - INFO - GET /openapi.json - Status: 200 - Time: 0.082s
+2025-07-25 11:00:24,329 - src.api.main - INFO - GET /docs - Status: 200 - Time: 0.000s
+2025-07-25 11:00:24,866 - src.api.main - INFO - GET /openapi.json - Status: 200 - Time: 0.003s
+2025-07-25 11:00:33,106 - src.api.main - INFO - GET /health - Status: 200 - Time: 0.000s
+2025-07-25 11:04:37,541 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 11:04:37,554 - src.api.main - INFO - Shutdown completed
+2025-07-25 11:05:36,916 - root - INFO - Logging configured successfully.
+2025-07-25 11:05:36,948 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 11:05:37,101 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 11:05:37,140 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 11:05:37,186 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 11:05:37,186 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 11:05:37,186 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 11:05:37,206 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 11:05:45,639 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 11:05:45,642 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 11:05:45,642 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 11:05:45,642 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 11:05:45,645 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 11:05:47,331 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 11:05:49,869 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 11:05:49,885 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 11:05:49,889 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 11:05:49,889 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 11:06:04,525 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 11:06:04,531 - src.api.main - INFO - Shutdown completed
+2025-07-25 11:06:53,302 - root - INFO - Logging configured successfully.
+2025-07-25 11:06:53,330 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 11:06:53,432 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 11:06:53,460 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 11:06:53,512 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 11:06:53,521 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 11:06:53,521 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 11:06:53,540 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 11:07:03,010 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 11:07:03,015 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 11:07:03,015 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 11:07:03,018 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 11:07:03,018 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 11:07:04,777 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 11:07:07,442 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 11:07:07,470 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 11:07:07,470 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 11:07:07,470 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 11:07:07,475 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 11:07:07,475 - src.api.main - INFO - Shutdown completed
+2025-07-25 11:07:42,755 - root - INFO - Logging configured successfully.
+2025-07-25 11:07:42,766 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 11:07:42,875 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 11:07:42,892 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 11:07:42,925 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 11:07:42,925 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 11:07:42,925 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 11:07:42,940 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 11:07:49,068 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 11:07:49,070 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 11:07:49,070 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 11:07:49,070 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 11:07:49,070 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 11:07:50,399 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 11:07:52,290 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 11:07:52,304 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 11:07:52,304 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 11:07:52,310 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 11:08:43,760 - src.api.main - INFO - GET /health - Status: 200 - Time: 0.017s
+2025-07-25 11:08:45,859 - src.api.main - INFO - GET /collection/info - Status: 500 - Time: 0.017s
+2025-07-25 11:08:47,902 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.000s
+2025-07-25 11:09:17,550 - src.api.main - INFO - GET /collection/info - Status: 500 - Time: 0.000s
+2025-07-25 11:09:19,605 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.000s
+2025-07-25 11:09:28,687 - src.api.main - INFO - GET /collection/info - Status: 500 - Time: 0.000s
+2025-07-25 11:09:30,728 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.000s
+2025-07-25 11:09:32,819 - src.api.main - INFO - POST /search - Status: 400 - Time: 0.017s
+2025-07-25 11:19:34,707 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 11:19:34,757 - src.api.main - INFO - Shutdown completed
+2025-07-25 11:21:02,175 - root - INFO - Logging configured successfully.
+2025-07-25 11:21:02,208 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 11:21:02,425 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 11:21:02,458 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 11:21:02,525 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 11:21:02,535 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 11:21:02,535 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 11:21:02,575 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 11:21:15,323 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 11:21:15,324 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 11:21:15,325 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 11:21:15,326 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 11:21:15,328 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 11:21:18,305 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 11:21:22,833 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 11:21:22,870 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 11:21:22,870 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 11:21:22,875 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 11:21:22,885 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 11:21:22,885 - src.api.main - INFO - Shutdown completed
+2025-07-25 11:22:25,336 - root - INFO - Logging configured successfully.
+2025-07-25 11:22:25,370 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 11:22:25,479 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 11:22:25,513 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 11:22:25,571 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 11:22:25,579 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 11:22:25,579 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 11:22:25,601 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 11:22:35,236 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 11:22:35,245 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 11:22:35,261 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 11:22:35,277 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 11:22:35,294 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 11:22:42,656 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 11:22:44,916 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 11:22:44,928 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 11:22:44,931 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 11:22:44,931 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 11:22:51,141 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 11:22:51,336 - src.api.main - INFO - Shutdown completed
+2025-07-25 11:23:40,699 - root - INFO - Logging configured successfully.
+2025-07-25 11:23:40,705 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 11:23:40,731 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 11:23:40,739 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 11:23:40,752 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 11:23:40,753 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 11:23:40,753 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 11:23:40,757 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 11:23:45,002 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 11:23:45,003 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 11:23:45,003 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 11:23:45,003 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 11:23:45,004 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 11:23:45,868 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 11:23:46,661 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 11:23:46,675 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 11:23:46,676 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 11:23:46,676 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 11:24:16,462 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 11:24:16,464 - src.api.main - INFO - Shutdown completed
+2025-07-25 11:24:44,511 - root - INFO - Logging configured successfully.
+2025-07-25 11:24:44,525 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 11:24:44,657 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 11:24:44,677 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 11:24:44,704 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 11:24:44,705 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 11:24:44,708 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 11:24:44,736 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 11:24:51,507 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 11:24:51,510 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 11:24:51,511 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 11:24:51,511 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 11:24:51,513 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 11:24:52,586 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 11:24:54,275 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 11:24:54,293 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 11:24:54,294 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 11:24:54,294 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 11:24:54,297 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 11:24:54,298 - src.api.main - INFO - Shutdown completed
+2025-07-25 11:25:16,698 - root - INFO - Logging configured successfully.
+2025-07-25 11:25:16,708 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 11:25:16,776 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 11:25:16,787 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 11:25:16,808 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 11:25:16,809 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 11:25:16,809 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 11:25:16,818 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 11:25:21,924 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 11:25:21,924 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 11:25:21,924 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 11:25:21,925 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 11:25:21,926 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 11:25:23,087 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 11:25:24,272 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 11:25:24,283 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 11:25:24,284 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 11:25:24,284 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 11:26:34,572 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 11:26:34,573 - src.api.main - INFO - Shutdown completed
+2025-07-25 11:26:55,471 - root - INFO - Logging configured successfully.
+2025-07-25 11:26:55,488 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 11:26:55,539 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 11:26:55,551 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 11:26:55,585 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 11:26:55,588 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 11:26:55,591 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 11:26:55,604 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 11:27:01,312 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 11:27:01,312 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 11:27:01,313 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 11:27:01,313 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 11:27:01,314 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 11:27:02,321 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 11:27:03,424 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 11:27:03,432 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 11:27:03,433 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 11:27:03,433 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 11:27:16,405 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 11:27:16,406 - src.api.main - INFO - Shutdown completed
+2025-07-25 12:42:11,657 - root - INFO - Logging configured successfully.
+2025-07-25 12:42:11,675 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 12:42:11,793 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 12:42:11,808 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 12:42:11,835 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 12:42:11,836 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 12:42:11,837 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 12:42:11,847 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 12:42:18,856 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 12:42:18,859 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 12:42:18,860 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 12:42:18,860 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 12:42:18,865 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 12:42:20,206 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 12:42:22,489 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 12:42:22,505 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 12:42:22,506 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 12:42:22,507 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 12:42:56,151 - src.api.main - INFO - GET /health - Status: 200 - Time: 0.011s
+2025-07-25 12:42:58,226 - src.api.main - INFO - GET /collection/info - Status: 500 - Time: 0.005s
+2025-07-25 12:43:00,310 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.003s
+2025-07-25 12:43:02,221 - src.api.main - INFO - GET /collection/info - Status: 500 - Time: 0.001s
+2025-07-25 12:43:02,606 - src.api.main - INFO - GET /collection/info - Status: 500 - Time: 0.002s
+2025-07-25 12:43:04,685 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 12:43:04,938 - src.api.main - INFO - GET /collection/info - Status: 500 - Time: 0.002s
+2025-07-25 12:43:05,202 - src.api.main - INFO - GET /collection/info - Status: 500 - Time: 0.002s
+2025-07-25 12:43:06,357 - src.api.main - INFO - GET /collection/info - Status: 500 - Time: 0.003s
+2025-07-25 12:43:08,403 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 12:43:50,972 - src.api.main - INFO - GET /collection/info - Status: 500 - Time: 0.003s
+2025-07-25 12:43:53,034 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 12:43:58,705 - src.api.main - INFO - GET /collection/info - Status: 500 - Time: 0.001s
+2025-07-25 12:44:00,746 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 12:44:02,898 - src.api.main - ERROR - Failed to generate embedding: 'tuple' object has no attribute 'encode_single_image'
+2025-07-25 12:44:02,900 - src.api.main - INFO - POST /search - Status: 500 - Time: 0.049s
+2025-07-25 12:44:25,003 - src.api.main - INFO - GET /collection/info - Status: 500 - Time: 0.002s
+2025-07-25 12:44:27,066 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 12:44:30,540 - src.api.main - INFO - GET /collection/info - Status: 500 - Time: 0.001s
+2025-07-25 12:44:31,061 - src.api.main - INFO - GET /collection/info - Status: 500 - Time: 0.002s
+2025-07-25 12:44:33,131 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 12:44:37,215 - src.api.main - INFO - GET /collection/info - Status: 500 - Time: 0.002s
+2025-07-25 12:44:39,275 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 12:44:41,371 - src.api.main - ERROR - Failed to generate embedding: 'tuple' object has no attribute 'encode_single_image'
+2025-07-25 12:44:41,372 - src.api.main - INFO - POST /search - Status: 500 - Time: 0.011s
+2025-07-25 12:50:33,964 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 12:50:33,969 - src.api.main - INFO - Shutdown completed
+2025-07-25 12:51:46,081 - root - INFO - Logging configured successfully.
+2025-07-25 12:51:46,115 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 12:51:46,391 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 12:51:46,443 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 12:51:46,517 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 12:51:46,518 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 12:51:46,519 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 12:51:46,561 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 12:51:59,742 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 12:51:59,746 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 12:51:59,757 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 12:51:59,763 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 12:51:59,771 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 12:52:02,262 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 12:52:06,718 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 12:52:06,749 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 12:52:06,750 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 12:52:06,751 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 12:52:06,758 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 12:52:06,763 - src.api.main - INFO - Shutdown completed
+2025-07-25 12:52:46,587 - root - INFO - Logging configured successfully.
+2025-07-25 12:52:46,601 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 12:52:46,737 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 12:52:46,757 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 12:52:46,800 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 12:52:46,800 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 12:52:46,801 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 12:52:46,819 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 12:52:59,247 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 12:52:59,248 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 12:52:59,248 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 12:52:59,249 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 12:52:59,251 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 12:53:02,562 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 12:53:04,329 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 12:53:04,344 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 12:53:04,344 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 12:53:04,345 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 12:53:04,348 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 12:53:04,349 - src.api.main - INFO - Shutdown completed
+2025-07-25 12:54:02,207 - root - INFO - Logging configured successfully.
+2025-07-25 12:54:02,449 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 12:54:02,811 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 12:54:02,954 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 12:54:03,119 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 12:54:03,123 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 12:54:03,126 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 12:54:03,180 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 12:54:12,825 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 12:54:12,827 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 12:54:12,828 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 12:54:12,828 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 12:54:12,829 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 12:54:14,296 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 12:54:16,289 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 12:54:16,309 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 12:54:16,309 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 12:54:16,309 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 12:54:16,324 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 12:54:16,329 - src.api.main - INFO - Shutdown completed
+2025-07-25 12:54:57,781 - root - INFO - Logging configured successfully.
+2025-07-25 12:54:57,814 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 12:54:57,967 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 12:54:57,983 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 12:54:58,046 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 12:54:58,047 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 12:54:58,049 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 12:54:58,100 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 12:55:07,989 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 12:55:07,989 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 12:55:07,990 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 12:55:07,992 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 12:55:07,994 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 12:55:11,403 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 12:55:13,877 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 12:55:13,895 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 12:55:13,896 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 12:55:13,896 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 12:55:13,902 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 12:55:13,903 - src.api.main - INFO - Shutdown completed
+2025-07-25 12:55:52,790 - root - INFO - Logging configured successfully.
+2025-07-25 12:55:52,803 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 12:55:52,967 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 12:55:52,988 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 12:55:53,052 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 12:55:53,052 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 12:55:53,053 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 12:55:53,085 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 12:56:01,855 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 12:56:01,856 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 12:56:01,856 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 12:56:01,856 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 12:56:01,858 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 12:56:04,865 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 12:56:06,386 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 12:56:06,396 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 12:56:06,396 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 12:56:06,396 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 12:56:06,528 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 12:56:06,532 - src.api.main - INFO - Shutdown completed
+2025-07-25 12:56:43,180 - root - INFO - Logging configured successfully.
+2025-07-25 12:56:43,190 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 12:56:43,286 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 12:56:43,299 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 12:56:43,318 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 12:56:43,318 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 12:56:43,318 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 12:56:43,337 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 12:56:55,065 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 12:56:55,066 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 12:56:55,066 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 12:56:55,067 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 12:56:55,068 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 12:56:59,249 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 12:57:00,392 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 12:57:00,401 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 12:57:00,402 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 12:57:00,402 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 12:57:00,499 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 12:57:00,599 - src.api.main - INFO - Shutdown completed
+2025-07-25 12:57:35,648 - root - INFO - Logging configured successfully.
+2025-07-25 12:57:35,669 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 12:57:35,775 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 12:57:35,791 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 12:57:35,812 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 12:57:35,812 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 12:57:35,813 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 12:57:35,827 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 12:57:46,526 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 12:57:46,527 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 12:57:46,528 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 12:57:46,529 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 12:57:46,532 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 12:57:51,827 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 12:57:54,799 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 12:57:54,810 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 12:57:54,811 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 12:57:54,811 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 12:57:54,823 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 12:57:54,825 - src.api.main - INFO - Shutdown completed
+2025-07-25 12:58:36,699 - root - INFO - Logging configured successfully.
+2025-07-25 12:58:36,715 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 12:58:36,929 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 12:58:36,962 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 12:58:37,073 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 12:58:37,073 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 12:58:37,073 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 12:58:37,103 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 12:58:46,382 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 12:58:46,385 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 12:58:46,385 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 12:58:46,385 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 12:58:46,387 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 12:58:47,703 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 12:58:49,538 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 12:58:49,553 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 12:58:49,553 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 12:58:49,553 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 12:58:49,559 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 12:58:49,560 - src.api.main - INFO - Shutdown completed
+2025-07-25 12:59:33,213 - root - INFO - Logging configured successfully.
+2025-07-25 12:59:33,234 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 12:59:33,373 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 12:59:33,393 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 12:59:33,440 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 12:59:33,441 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 12:59:33,441 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 12:59:33,468 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 12:59:45,264 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 12:59:45,266 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 12:59:45,268 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 12:59:45,270 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 12:59:45,272 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 12:59:49,523 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 12:59:50,563 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 12:59:50,569 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 12:59:50,570 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 12:59:50,570 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 13:00:28,498 - root - INFO - Logging configured successfully.
+2025-07-25 13:00:28,508 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 13:00:28,588 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 13:00:28,600 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 13:00:30,154 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 13:00:30,163 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 13:00:36,599 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 13:00:37,348 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 13:00:37,349 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 13:00:38,384 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 13:00:39,836 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 13:01:30,879 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 13:01:30,891 - src.api.main - INFO - Shutdown completed
+2025-07-25 13:02:36,029 - root - INFO - Logging configured successfully.
+2025-07-25 13:02:36,044 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 13:02:36,145 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 13:02:36,161 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 13:02:36,179 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 13:02:36,180 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 13:02:36,180 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 13:02:36,195 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 13:02:43,259 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 13:02:43,260 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 13:02:43,260 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 13:02:43,260 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 13:02:43,261 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 13:02:44,494 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 13:02:45,961 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 13:02:45,973 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 13:02:45,974 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 13:02:45,974 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 13:03:03,460 - src.api.main - INFO - GET /health - Status: 200 - Time: 0.014s
+2025-07-25 13:03:05,575 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.055s
+2025-07-25 13:03:07,650 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.005s
+2025-07-25 13:03:22,574 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 13:03:24,624 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 13:03:44,221 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.001s
+2025-07-25 13:03:46,268 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 13:04:04,597 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 13:04:04,939 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.001s
+2025-07-25 13:04:05,427 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 13:04:07,468 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 13:04:15,459 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 13:04:17,515 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 13:04:26,540 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 13:04:28,578 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 13:04:34,012 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.001s
+2025-07-25 13:04:36,070 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 13:04:38,353 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 13:04:40,712 - src.api.main - INFO - POST /search - Status: 200 - Time: 2.570s
+2025-07-25 13:04:40,714 - src.api.main - INFO - Search metrics - Image size: 10043 bytes, Results: 2, Time: 2.505s
+2025-07-25 13:14:58,611 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 13:14:58,640 - src.api.main - INFO - Shutdown completed
+2025-07-25 13:28:51,356 - root - INFO - Logging configured successfully.
+2025-07-25 13:28:51,370 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 13:28:51,501 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 13:28:51,518 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 13:28:51,545 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 13:28:51,546 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 13:28:51,546 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 13:28:51,559 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 13:28:58,745 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 13:28:58,746 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 13:28:58,746 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 13:28:58,747 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 13:28:58,749 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 13:29:00,346 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 13:29:01,914 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 13:29:01,932 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 13:29:01,932 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 13:29:01,933 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 13:29:25,426 - src.api.main - INFO - GET /health - Status: 200 - Time: 0.012s
+2025-07-25 13:29:27,505 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.008s
+2025-07-25 13:29:30,691 - src.api.main - INFO - GET /images/0 - Status: 200 - Time: 1.122s
+2025-07-25 13:29:33,846 - src.api.main - INFO - GET /images/100 - Status: 200 - Time: 1.109s
+2025-07-25 13:29:35,989 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 13:29:38,553 - src.api.main - INFO - POST /search - Status: 200 - Time: 2.640s
+2025-07-25 13:29:38,555 - src.api.main - INFO - Search metrics - Image size: 6235 bytes, Results: 3, Time: 2.605s
+2025-07-25 13:30:06,162 - src.api.main - INFO - GET /health - Status: 200 - Time: 0.002s
+2025-07-25 13:30:08,226 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 13:30:10,313 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.003s
+2025-07-25 13:30:25,716 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 13:30:26,153 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 13:30:26,498 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 13:30:26,917 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 13:30:28,172 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 13:30:30,228 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 13:30:38,530 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 13:30:40,588 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 13:30:53,336 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 13:30:55,423 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 13:31:04,813 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.001s
+2025-07-25 13:31:06,856 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 13:31:08,933 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 13:31:10,287 - src.api.main - INFO - POST /search - Status: 200 - Time: 1.367s
+2025-07-25 13:31:10,288 - src.api.main - INFO - Search metrics - Image size: 10043 bytes, Results: 2, Time: 1.341s
+2025-07-25 13:31:12,373 - src.api.main - INFO - GET / - Status: 200 - Time: 0.001s
+2025-07-25 13:31:14,580 - src.api.main - INFO - GET / - Status: 200 - Time: 0.001s
+2025-07-25 13:41:23,115 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 13:41:23,174 - src.api.main - INFO - Shutdown completed
+2025-07-25 13:42:20,541 - root - INFO - Logging configured successfully.
+2025-07-25 13:42:20,565 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 13:42:20,716 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 13:42:20,742 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 13:42:20,780 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 13:42:20,782 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 13:42:20,782 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 13:42:20,805 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 13:42:33,379 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 13:42:33,380 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 13:42:33,381 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 13:42:33,381 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 13:42:33,383 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 13:42:35,099 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 13:42:38,960 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 13:42:38,981 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 13:42:38,984 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 13:42:38,987 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 13:42:39,000 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 13:42:39,008 - src.api.main - INFO - Shutdown completed
+2025-07-25 13:43:29,885 - root - INFO - Logging configured successfully.
+2025-07-25 13:43:29,912 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 13:43:30,151 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 13:43:30,185 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 13:43:30,251 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 13:43:30,252 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 13:43:30,254 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 13:43:30,288 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 13:43:43,973 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 13:43:43,975 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 13:43:43,978 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 13:43:43,979 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 13:43:43,980 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 13:43:47,570 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 13:43:56,332 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 13:43:56,364 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 13:43:56,366 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 13:43:56,366 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 13:43:56,374 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 13:43:56,376 - src.api.main - INFO - Shutdown completed
+2025-07-25 13:44:39,851 - root - INFO - Logging configured successfully.
+2025-07-25 13:44:39,862 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 13:44:39,907 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 13:44:39,927 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 13:44:39,957 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 13:44:39,958 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 13:44:39,959 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 13:44:39,969 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 13:44:45,561 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 13:44:45,561 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 13:44:45,562 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 13:44:45,562 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 13:44:45,563 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 13:44:47,443 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 13:44:48,530 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 13:44:48,537 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 13:44:48,537 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 13:44:48,538 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 13:44:48,556 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 13:44:48,578 - src.api.main - INFO - Shutdown completed
+2025-07-25 13:45:23,783 - root - INFO - Logging configured successfully.
+2025-07-25 13:45:23,796 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 13:45:23,833 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 13:45:23,843 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 13:45:23,884 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 13:45:23,885 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 13:45:23,885 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 13:45:23,898 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 13:45:31,891 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 13:45:31,891 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 13:45:31,891 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 13:45:31,891 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 13:45:31,891 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 13:45:32,453 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 13:45:33,236 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 13:45:33,242 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 13:45:33,242 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 13:45:33,243 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 13:45:33,244 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 13:45:33,244 - src.api.main - INFO - Shutdown completed
+2025-07-25 13:45:47,626 - root - INFO - Logging configured successfully.
+2025-07-25 13:45:47,633 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 13:45:47,674 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 13:45:47,684 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 13:45:47,704 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 13:45:47,704 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 13:45:47,705 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 13:45:47,712 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 13:45:52,501 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 13:45:52,502 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 13:45:52,502 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 13:45:52,502 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 13:45:52,503 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 13:45:53,557 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 13:45:54,787 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 13:45:54,807 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 13:45:54,807 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 13:45:54,808 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 13:45:54,808 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 13:45:54,809 - src.api.main - INFO - Shutdown completed
+2025-07-25 13:46:31,789 - root - INFO - Logging configured successfully.
+2025-07-25 13:46:31,804 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 13:46:31,911 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 13:46:31,926 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 13:46:31,952 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 13:46:31,952 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 13:46:31,953 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 13:46:31,969 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 13:46:37,762 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 13:46:37,763 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 13:46:37,763 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 13:46:37,764 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 13:46:37,765 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 13:46:38,840 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 13:46:40,252 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 13:46:40,265 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 13:46:40,265 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 13:46:40,266 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 13:46:40,267 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 13:46:40,268 - src.api.main - INFO - Shutdown completed
+2025-07-25 14:08:12,196 - root - INFO - Logging configured successfully.
+2025-07-25 14:08:12,222 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 14:08:12,386 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 14:08:12,412 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 14:08:12,450 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 14:08:12,451 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 14:08:12,451 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 14:08:12,475 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 14:08:19,622 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 14:08:19,623 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 14:08:19,623 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 14:08:19,624 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 14:08:19,626 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 14:08:21,231 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 14:08:23,570 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 14:08:23,592 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 14:08:23,592 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 14:08:23,594 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 14:08:32,409 - src.api.main - INFO - GET /health - Status: 200 - Time: 0.010s
+2025-07-25 14:08:34,462 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.005s
+2025-07-25 14:08:37,599 - src.api.main - INFO - GET /images/0 - Status: 200 - Time: 1.094s
+2025-07-25 14:08:40,709 - src.api.main - INFO - GET /images/100 - Status: 200 - Time: 1.063s
+2025-07-25 14:08:42,835 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 14:08:45,172 - src.api.main - INFO - Loaded metadata with 289222 rows
+2025-07-25 14:08:45,173 - src.api.main - INFO - Processing result: ID=100, similarity=0.9356027841567993
+2025-07-25 14:08:45,173 - src.api.main - INFO - Enriched result keys: ['image_id', 'similarity', 'image_url', 'metadata']
+2025-07-25 14:08:45,175 - src.api.main - INFO - Added metadata for ID 100: category=Blouse
+2025-07-25 14:08:45,175 - src.api.main - INFO - Processing result: ID=24728, similarity=0.9250668883323669
+2025-07-25 14:08:45,176 - src.api.main - INFO - Enriched result keys: ['image_id', 'similarity', 'image_url', 'metadata']
+2025-07-25 14:08:45,176 - src.api.main - INFO - Added metadata for ID 24728: category=Blouse
+2025-07-25 14:08:45,177 - src.api.main - INFO - Processing result: ID=200105, similarity=0.9237409830093384
+2025-07-25 14:08:45,177 - src.api.main - INFO - Enriched result keys: ['image_id', 'similarity', 'image_url', 'metadata']
+2025-07-25 14:08:45,177 - src.api.main - INFO - Added metadata for ID 200105: category=Dress
+2025-07-25 14:08:45,178 - src.api.main - INFO - First result structure: ['image_id', 'similarity', 'image_url', 'metadata']
+2025-07-25 14:08:45,178 - src.api.main - INFO - Has image_url in first result: True
+2025-07-25 14:08:45,203 - src.api.main - INFO - POST /search - Status: 200 - Time: 2.420s
+2025-07-25 14:08:45,205 - src.api.main - INFO - Search metrics - Image size: 6235 bytes, Results: 3, Time: 2.389s
+2025-07-25 14:09:00,001 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.005s
+2025-07-25 14:09:02,321 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 14:09:22,637 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 14:09:23,060 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 14:09:23,994 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 14:09:26,036 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 14:09:26,676 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 14:09:28,732 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 14:09:37,901 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 14:09:39,952 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.000s
+2025-07-25 14:09:55,263 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 14:09:57,298 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 14:09:59,380 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 14:10:00,711 - src.api.main - INFO - Loaded metadata with 289222 rows
+2025-07-25 14:10:00,711 - src.api.main - INFO - Processing result: ID=222267, similarity=0.9185409545898438
+2025-07-25 14:10:00,712 - src.api.main - INFO - Enriched result keys: ['image_id', 'similarity', 'image_url', 'metadata']
+2025-07-25 14:10:00,714 - src.api.main - INFO - Added metadata for ID 222267: category=Dress
+2025-07-25 14:10:00,714 - src.api.main - INFO - Processing result: ID=55843, similarity=0.8850139379501343
+2025-07-25 14:10:00,715 - src.api.main - INFO - Enriched result keys: ['image_id', 'similarity', 'image_url', 'metadata']
+2025-07-25 14:10:00,716 - src.api.main - INFO - Added metadata for ID 55843: category=Tee
+2025-07-25 14:10:00,716 - src.api.main - INFO - First result structure: ['image_id', 'similarity', 'image_url', 'metadata']
+2025-07-25 14:10:00,716 - src.api.main - INFO - Has image_url in first result: True
+2025-07-25 14:10:00,739 - src.api.main - INFO - POST /search - Status: 200 - Time: 1.367s
+2025-07-25 14:10:00,742 - src.api.main - INFO - Search metrics - Image size: 10043 bytes, Results: 2, Time: 1.340s
+2025-07-25 14:10:02,763 - src.api.main - INFO - GET / - Status: 200 - Time: 0.001s
+2025-07-25 14:10:04,828 - src.api.main - INFO - GET / - Status: 200 - Time: 0.001s
+2025-07-25 14:13:57,523 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 14:13:57,535 - src.api.main - INFO - Shutdown completed
+2025-07-25 14:14:48,276 - root - INFO - Logging configured successfully.
+2025-07-25 14:14:48,293 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 14:14:48,429 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 14:14:48,452 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 14:14:48,489 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 14:14:48,490 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 14:14:48,491 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 14:14:48,508 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 14:14:55,724 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 14:14:55,724 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 14:14:55,725 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 14:14:55,726 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 14:14:55,727 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 14:14:57,402 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 14:15:01,615 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 14:15:01,637 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 14:15:01,638 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 14:15:01,638 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 14:15:01,642 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 14:15:01,643 - src.api.main - INFO - Shutdown completed
+2025-07-25 14:15:42,832 - root - INFO - Logging configured successfully.
+2025-07-25 14:15:42,852 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 14:15:42,932 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 14:15:42,954 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 14:15:42,992 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 14:15:42,993 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 14:15:42,993 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 14:15:43,008 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 14:15:51,484 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 14:15:51,485 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 14:15:51,486 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 14:15:51,487 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 14:15:51,488 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 14:15:55,781 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 14:15:59,268 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 14:15:59,283 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 14:15:59,284 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 14:15:59,285 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 14:17:08,392 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 14:17:08,396 - src.api.main - INFO - Shutdown completed
+2025-07-25 14:17:37,328 - root - INFO - Logging configured successfully.
+2025-07-25 14:17:37,342 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 14:17:37,424 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 14:17:37,442 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 14:17:37,466 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 14:17:37,466 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 14:17:37,467 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 14:17:37,477 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 14:17:42,875 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 14:17:42,876 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 14:17:42,876 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 14:17:42,877 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 14:17:42,878 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 14:17:44,127 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 14:17:45,696 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 14:17:45,713 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 14:17:45,714 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 14:17:45,714 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 14:17:45,717 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 14:17:45,718 - src.api.main - INFO - Shutdown completed
+2025-07-25 14:18:13,238 - root - INFO - Logging configured successfully.
+2025-07-25 14:18:13,253 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 14:18:13,309 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 14:18:13,326 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 14:18:13,355 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 14:18:13,355 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 14:18:13,356 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 14:18:13,364 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 14:18:18,676 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 14:18:18,677 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 14:18:18,678 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 14:18:18,678 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 14:18:18,679 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 14:18:20,004 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 14:18:21,609 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 14:18:21,619 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 14:18:21,620 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 14:18:21,620 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 14:18:28,517 - src.api.main - INFO - GET /health - Status: 200 - Time: 0.010s
+2025-07-25 14:18:30,586 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.006s
+2025-07-25 14:18:33,741 - src.api.main - INFO - GET /images/0 - Status: 200 - Time: 1.091s
+2025-07-25 14:18:36,951 - src.api.main - INFO - GET /images/100 - Status: 200 - Time: 1.152s
+2025-07-25 14:18:39,069 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 14:18:41,496 - src.api.main - INFO - POST /search - Status: 200 - Time: 2.482s
+2025-07-25 14:18:41,498 - src.api.main - INFO - Search metrics - Image size: 6235 bytes, Results: 3, Time: 2.453s
+2025-07-25 14:18:44,664 - src.api.main - INFO - GET /images/100 - Status: 200 - Time: 1.116s
+2025-07-25 14:18:55,755 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 14:18:57,877 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 14:19:13,136 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 14:19:13,602 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 14:19:15,552 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 14:19:17,601 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 14:19:26,654 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 14:19:28,712 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 14:19:37,266 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.001s
+2025-07-25 14:19:39,304 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 14:19:41,416 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 14:19:42,991 - src.api.main - INFO - POST /search - Status: 200 - Time: 1.600s
+2025-07-25 14:19:42,994 - src.api.main - INFO - Search metrics - Image size: 10043 bytes, Results: 2, Time: 1.562s
+2025-07-25 14:19:46,139 - src.api.main - INFO - GET /images/222267 - Status: 200 - Time: 1.092s
+2025-07-25 14:19:50,011 - src.api.main - INFO - GET /images/55843 - Status: 200 - Time: 1.799s
+2025-07-25 14:21:50,141 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 14:21:52,218 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 14:21:56,169 - src.api.main - INFO - GET /images/222267 - Status: 200 - Time: 1.848s
+2025-07-25 14:21:59,398 - src.api.main - INFO - GET /images/55843 - Status: 200 - Time: 1.155s
+2025-07-25 14:22:02,696 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 14:22:04,759 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 14:22:06,881 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 14:22:08,549 - src.api.main - INFO - POST /search - Status: 200 - Time: 1.681s
+2025-07-25 14:22:08,553 - src.api.main - INFO - Search metrics - Image size: 31982 bytes, Results: 2, Time: 1.655s
+2025-07-25 14:22:11,748 - src.api.main - INFO - GET /images/278473 - Status: 200 - Time: 1.124s
+2025-07-25 14:22:14,989 - src.api.main - INFO - GET /images/264829 - Status: 200 - Time: 1.160s
+2025-07-25 14:29:37,014 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.012s
+2025-07-25 14:29:37,842 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 14:29:39,909 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.003s
+2025-07-25 14:29:44,601 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.026s
+2025-07-25 14:29:44,614 - src.api.main - INFO - GET /images/278473 - Status: 200 - Time: 2.597s
+2025-07-25 14:29:46,665 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 14:29:48,784 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 14:29:53,082 - src.api.main - INFO - POST /search - Status: 200 - Time: 4.331s
+2025-07-25 14:29:53,085 - src.api.main - INFO - Search metrics - Image size: 31982 bytes, Results: 10, Time: 4.281s
+2025-07-25 14:29:57,254 - src.api.main - INFO - GET /images/278473 - Status: 200 - Time: 2.094s
+2025-07-25 14:30:01,800 - src.api.main - INFO - GET /images/264829 - Status: 200 - Time: 2.483s
+2025-07-25 14:30:06,349 - src.api.main - INFO - GET /images/265158 - Status: 200 - Time: 2.457s
+2025-07-25 14:30:10,294 - src.api.main - INFO - GET /images/265252 - Status: 200 - Time: 1.878s
+2025-07-25 14:30:14,581 - src.api.main - INFO - GET /images/182677 - Status: 200 - Time: 2.196s
+2025-07-25 14:30:18,776 - src.api.main - INFO - GET /images/272359 - Status: 200 - Time: 2.113s
+2025-07-25 14:30:22,991 - src.api.main - INFO - GET /images/262976 - Status: 200 - Time: 2.132s
+2025-07-25 14:30:27,035 - src.api.main - INFO - GET /images/136179 - Status: 200 - Time: 1.974s
+2025-07-25 14:30:31,015 - src.api.main - INFO - GET /images/243946 - Status: 200 - Time: 1.903s
+2025-07-25 14:30:34,900 - src.api.main - INFO - GET /images/283961 - Status: 200 - Time: 1.790s
+2025-07-25 14:31:13,538 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 14:31:15,596 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 14:31:21,652 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.394s
+2025-07-25 14:31:21,658 - src.api.main - INFO - GET /images/278473 - Status: 200 - Time: 2.544s
+2025-07-25 14:31:23,854 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 14:31:27,854 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 14:31:31,252 - src.api.main - INFO - POST /search - Status: 200 - Time: 3.548s
+2025-07-25 14:31:31,255 - src.api.main - INFO - Search metrics - Image size: 716421 bytes, Results: 10, Time: 3.500s
+2025-07-25 14:31:35,160 - src.api.main - INFO - GET /images/54909 - Status: 200 - Time: 1.834s
+2025-07-25 14:31:39,284 - src.api.main - INFO - GET /images/73411 - Status: 200 - Time: 2.075s
+2025-07-25 14:31:43,492 - src.api.main - INFO - GET /images/38052 - Status: 200 - Time: 2.139s
+2025-07-25 14:31:47,569 - src.api.main - INFO - GET /images/103369 - Status: 200 - Time: 1.995s
+2025-07-25 14:31:51,461 - src.api.main - INFO - GET /images/140031 - Status: 200 - Time: 1.833s
+2025-07-25 14:31:55,467 - src.api.main - INFO - GET /images/189561 - Status: 200 - Time: 1.937s
+2025-07-25 14:31:59,602 - src.api.main - INFO - GET /images/57410 - Status: 200 - Time: 2.069s
+2025-07-25 14:32:03,847 - src.api.main - INFO - GET /images/75036 - Status: 200 - Time: 2.181s
+2025-07-25 14:32:07,751 - src.api.main - INFO - GET /images/113634 - Status: 200 - Time: 1.820s
+2025-07-25 14:32:11,706 - src.api.main - INFO - GET /images/10673 - Status: 200 - Time: 1.858s
+2025-07-25 14:35:05,987 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.027s
+2025-07-25 14:35:08,094 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.004s
+2025-07-25 14:35:12,850 - src.api.main - INFO - GET /images/54909 - Status: 200 - Time: 2.669s
+2025-07-25 14:35:16,810 - src.api.main - INFO - GET /images/73411 - Status: 200 - Time: 1.855s
+2025-07-25 14:35:18,122 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 14:35:20,182 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 14:36:05,996 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 14:36:08,070 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 14:36:08,788 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.001s
+2025-07-25 14:36:09,036 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.001s
+2025-07-25 14:36:10,736 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 14:36:12,813 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 14:36:17,057 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 14:36:19,115 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 14:36:21,227 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 14:36:23,627 - src.api.main - INFO - POST /search - Status: 200 - Time: 2.418s
+2025-07-25 14:36:23,628 - src.api.main - INFO - Search metrics - Image size: 6191 bytes, Results: 2, Time: 2.390s
+2025-07-25 14:36:26,839 - src.api.main - INFO - GET /images/223252 - Status: 200 - Time: 1.141s
+2025-07-25 14:36:30,007 - src.api.main - INFO - GET /images/222270 - Status: 200 - Time: 1.087s
+2025-07-25 14:39:34,434 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.012s
+2025-07-25 14:39:36,541 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 14:39:39,834 - src.api.main - INFO - GET /images/223252 - Status: 200 - Time: 1.205s
+2025-07-25 14:39:42,998 - src.api.main - INFO - GET /images/222270 - Status: 200 - Time: 1.095s
+2025-07-25 14:39:44,529 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 14:39:46,606 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.000s
+2025-07-25 14:39:48,901 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 14:39:51,117 - src.api.main - INFO - POST /search - Status: 200 - Time: 2.422s
+2025-07-25 14:39:51,118 - src.api.main - INFO - Search metrics - Image size: 83618 bytes, Results: 2, Time: 2.396s
+2025-07-25 14:39:54,397 - src.api.main - INFO - GET /images/244885 - Status: 200 - Time: 1.223s
+2025-07-25 14:39:57,560 - src.api.main - INFO - GET /images/194185 - Status: 200 - Time: 1.080s
+2025-07-25 14:51:45,146 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 14:51:45,193 - src.api.main - INFO - Shutdown completed
+2025-07-25 14:55:06,098 - root - INFO - Logging configured successfully.
+2025-07-25 14:55:06,119 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 14:55:06,225 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 14:55:06,243 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 14:55:06,271 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 14:55:06,272 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 14:55:06,273 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 14:55:06,284 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 14:55:12,445 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 14:55:12,446 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 14:55:12,447 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 14:55:12,447 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 14:55:12,448 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 14:55:13,711 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 14:55:15,442 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 14:55:15,460 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 14:55:15,461 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 14:55:15,461 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 14:56:32,651 - src.api.main - INFO - GET /health - Status: 200 - Time: 0.010s
+2025-07-25 14:56:34,709 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.005s
+2025-07-25 14:56:37,898 - src.api.main - INFO - GET /images/0 - Status: 200 - Time: 1.125s
+2025-07-25 14:56:41,062 - src.api.main - INFO - GET /images/100 - Status: 200 - Time: 1.095s
+2025-07-25 14:56:43,170 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 14:56:45,541 - src.api.main - INFO - POST /search - Status: 200 - Time: 2.427s
+2025-07-25 14:56:45,542 - src.api.main - INFO - Search metrics - Image size: 6235 bytes, Results: 3, Time: 2.402s
+2025-07-25 14:56:48,770 - src.api.main - INFO - GET /images/100 - Status: 200 - Time: 1.171s
+2025-07-25 14:57:00,716 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.004s
+2025-07-25 14:57:02,861 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 14:57:45,159 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 14:57:47,216 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 14:57:50,366 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 14:57:50,637 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 14:57:51,649 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 14:57:53,720 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 14:57:58,716 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 14:57:59,823 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 14:58:01,908 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 14:58:11,734 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 14:58:13,790 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 14:58:15,900 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 14:58:17,475 - src.api.main - INFO - POST /search - Status: 200 - Time: 1.608s
+2025-07-25 14:58:17,477 - src.api.main - INFO - Search metrics - Image size: 6191 bytes, Results: 2, Time: 1.573s
+2025-07-25 14:58:20,673 - src.api.main - INFO - GET /images/223252 - Status: 200 - Time: 1.114s
+2025-07-25 14:58:23,845 - src.api.main - INFO - GET /images/222270 - Status: 200 - Time: 1.090s
+2025-07-25 15:05:04,068 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 15:05:04,078 - src.api.main - INFO - Shutdown completed
+2025-07-25 15:05:40,474 - root - INFO - Logging configured successfully.
+2025-07-25 15:05:40,486 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 15:05:40,592 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 15:05:40,610 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 15:05:40,642 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 15:05:40,642 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 15:05:40,643 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 15:05:40,657 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 15:05:46,426 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 15:05:46,427 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 15:05:46,427 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 15:05:46,428 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 15:05:46,428 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 15:05:47,866 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 15:05:49,709 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 15:05:49,727 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 15:05:49,728 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 15:05:49,728 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 15:05:54,615 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 15:05:54,616 - src.api.main - INFO - Shutdown completed
+2025-07-25 15:06:20,362 - root - INFO - Logging configured successfully.
+2025-07-25 15:06:20,373 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 15:06:20,430 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 15:06:20,447 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 15:06:20,474 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 15:06:20,475 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 15:06:20,475 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 15:06:20,484 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 15:06:26,698 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 15:06:26,699 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 15:06:26,699 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 15:06:26,699 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 15:06:26,701 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 15:06:27,985 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 15:06:29,758 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 15:06:29,771 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 15:06:29,772 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 15:06:29,773 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 15:06:29,774 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 15:06:29,776 - src.api.main - INFO - Shutdown completed
+2025-07-25 15:07:23,336 - root - INFO - Logging configured successfully.
+2025-07-25 15:07:23,363 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 15:07:23,468 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 15:07:23,494 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 15:07:23,547 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 15:07:23,548 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 15:07:23,549 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 15:07:23,567 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 15:07:32,262 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 15:07:32,264 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 15:07:32,264 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 15:07:32,273 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 15:07:32,279 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 15:07:34,014 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 15:07:37,083 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 15:07:37,107 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 15:07:37,107 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 15:07:37,108 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 15:07:43,091 - src.api.main - INFO - GET /health - Status: 200 - Time: 0.008s
+2025-07-25 15:07:45,184 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.004s
+2025-07-25 15:07:48,357 - src.api.main - INFO - GET /images/0 - Status: 200 - Time: 1.134s
+2025-07-25 15:07:51,588 - src.api.main - INFO - GET /images/100 - Status: 200 - Time: 1.167s
+2025-07-25 15:07:53,707 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 15:07:56,064 - src.api.main - INFO - POST /search - Status: 200 - Time: 2.412s
+2025-07-25 15:07:56,066 - src.api.main - INFO - Search metrics - Image size: 6235 bytes, Results: 3, Time: 2.383s
+2025-07-25 15:07:59,290 - src.api.main - INFO - GET /images/100 - Status: 200 - Time: 1.165s
+2025-07-25 15:09:34,608 - src.api.main - INFO - GET /health - Status: 200 - Time: 0.001s
+2025-07-25 15:09:36,675 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 15:09:38,729 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 15:09:52,026 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 15:09:52,448 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 15:09:52,839 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 15:09:54,891 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 15:10:09,420 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.004s
+2025-07-25 15:10:11,470 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 15:10:13,169 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 15:10:15,233 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 15:10:20,971 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 15:10:23,049 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 15:10:25,152 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 15:10:27,434 - src.api.main - INFO - POST /search - Status: 200 - Time: 2.304s
+2025-07-25 15:10:27,439 - src.api.main - INFO - Search metrics - Image size: 9203 bytes, Results: 2, Time: 2.270s
+2025-07-25 15:10:31,371 - src.api.main - INFO - GET /images/276869 - Status: 200 - Time: 1.849s
+2025-07-25 15:10:35,297 - src.api.main - INFO - GET /images/19097 - Status: 200 - Time: 1.856s
+2025-07-25 15:11:20,049 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 15:11:22,110 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.003s
+2025-07-25 15:11:27,455 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.008s
+2025-07-25 15:11:27,459 - src.api.main - INFO - GET /images/276869 - Status: 200 - Time: 1.869s
+2025-07-25 15:11:29,610 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 15:11:33,210 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 15:11:35,623 - src.api.main - INFO - POST /search - Status: 200 - Time: 2.530s
+2025-07-25 15:11:35,627 - src.api.main - INFO - Search metrics - Image size: 716421 bytes, Results: 2, Time: 2.492s
+2025-07-25 15:11:39,549 - src.api.main - INFO - GET /images/54909 - Status: 200 - Time: 1.866s
+2025-07-25 15:11:43,699 - src.api.main - INFO - GET /images/73411 - Status: 200 - Time: 2.081s
+2025-07-25 15:20:14,901 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 15:20:14,977 - src.api.main - INFO - Shutdown completed
+2025-07-25 15:21:12,522 - root - INFO - Logging configured successfully.
+2025-07-25 15:21:12,540 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 15:21:12,657 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 15:21:12,680 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 15:21:12,724 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 15:21:12,725 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 15:21:12,725 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 15:21:12,746 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 15:21:19,616 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 15:21:19,617 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 15:21:19,618 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 15:21:19,618 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 15:21:19,619 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 15:21:20,951 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 15:21:23,127 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 15:21:23,147 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 15:21:23,147 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 15:21:23,149 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 15:35:02,931 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 15:35:02,940 - src.api.main - INFO - Shutdown completed
+2025-07-25 15:35:35,194 - root - INFO - Logging configured successfully.
+2025-07-25 15:35:35,211 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 15:35:35,272 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 15:35:35,292 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 15:35:35,325 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 15:35:35,325 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 15:35:35,325 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 15:35:35,339 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 15:35:52,156 - src.api.main - ERROR - Failed to load CLIP model: (ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')), '(Request ID: b422572e-40a9-4a6c-a56a-fe88c4c43983)')
+2025-07-25 15:35:52,156 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 15:35:52,158 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 15:35:52,159 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 15:35:53,249 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 15:35:55,466 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 15:35:55,482 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 15:35:55,485 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 15:35:55,485 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 15:40:25,203 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.008s
+2025-07-25 15:40:27,272 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.012s
+2025-07-25 15:40:28,284 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 15:40:29,687 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.003s
+2025-07-25 15:40:31,744 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 15:40:42,553 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.001s
+2025-07-25 15:40:44,607 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.002s
+2025-07-25 15:40:48,968 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.001s
+2025-07-25 15:40:51,024 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 15:40:53,132 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 15:40:53,132 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 15:40:58,920 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 15:41:00,928 - src.api.main - INFO - POST /search - Status: 200 - Time: 7.835s
+2025-07-25 15:41:00,929 - src.api.main - INFO - Search metrics - Image size: 31982 bytes, Results: 2, Time: 7.808s
+2025-07-25 15:41:03,958 - src.api.main - INFO - GET /images/278473 - Status: 200 - Time: 0.970s
+2025-07-25 15:41:06,972 - src.api.main - INFO - GET /images/264829 - Status: 200 - Time: 0.955s
+2025-07-25 15:57:37,968 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 15:57:37,976 - src.api.main - INFO - Shutdown completed
+2025-07-25 18:34:34,506 - root - INFO - Logging configured successfully.
+2025-07-25 18:34:34,513 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 18:34:34,583 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 18:34:34,592 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 18:34:34,606 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 18:34:34,607 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 18:34:34,607 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 18:34:34,618 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 18:34:39,363 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 18:34:39,363 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 18:34:39,364 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 18:34:39,364 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 18:34:39,364 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 18:34:40,167 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 18:34:41,002 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 18:34:41,011 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 18:34:41,011 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 18:34:41,011 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 18:34:50,845 - src.api.main - INFO - GET /health - Status: 200 - Time: 0.006s
+2025-07-25 18:34:52,886 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.002s
+2025-07-25 18:34:55,463 - src.api.main - INFO - GET /images/0 - Status: 200 - Time: 0.540s
+2025-07-25 18:34:58,009 - src.api.main - INFO - GET /images/100 - Status: 200 - Time: 0.499s
+2025-07-25 18:35:00,108 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 18:35:01,356 - src.api.main - INFO - POST /search - Status: 200 - Time: 1.284s
+2025-07-25 18:35:01,356 - src.api.main - INFO - Search metrics - Image size: 6235 bytes, Results: 3, Time: 1.267s
+2025-07-25 18:35:03,889 - src.api.main - INFO - GET /images/100 - Status: 200 - Time: 0.494s
+2025-07-25 18:35:13,878 - src.api.main - INFO - GET /health - Status: 200 - Time: 0.001s
+2025-07-25 18:35:15,931 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.001s
+2025-07-25 18:35:17,990 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 18:35:25,967 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.001s
+2025-07-25 18:35:28,006 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.001s
+2025-07-25 18:35:29,350 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.001s
+2025-07-25 18:35:31,410 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.000s
+2025-07-25 18:35:36,028 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.001s
+2025-07-25 18:35:38,063 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.000s
+2025-07-25 18:35:44,051 - src.api.main - INFO - GET /collection/info - Status: 200 - Time: 0.001s
+2025-07-25 18:35:46,099 - src.api.main - INFO - GET /stats - Status: 200 - Time: 0.000s
+2025-07-25 18:35:48,149 - src.embeddings.clip_model - INFO - Returning cached CLIP model.
+2025-07-25 18:35:48,722 - src.api.main - INFO - POST /search - Status: 200 - Time: 0.577s
+2025-07-25 18:35:48,723 - src.api.main - INFO - Search metrics - Image size: 31982 bytes, Results: 2, Time: 0.568s
+2025-07-25 18:35:51,254 - src.api.main - INFO - GET /images/278473 - Status: 200 - Time: 0.449s
+2025-07-25 18:35:53,920 - src.api.main - INFO - GET /images/264829 - Status: 200 - Time: 0.623s
+2025-07-25 18:39:23,546 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 18:39:23,549 - src.api.main - INFO - Shutdown completed
+2025-07-25 18:39:56,534 - root - INFO - Logging configured successfully.
+2025-07-25 18:39:56,548 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 18:39:56,609 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 18:39:56,627 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 18:39:56,660 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 18:39:56,661 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 18:39:56,662 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 18:39:56,673 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 18:40:03,055 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 18:40:03,056 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 18:40:03,056 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 18:40:03,056 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 18:40:03,057 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 18:40:05,633 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 18:40:08,564 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 18:40:08,577 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 18:40:08,578 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 18:40:08,578 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 18:40:08,583 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 18:40:08,584 - src.api.main - INFO - Shutdown completed
+2025-07-25 18:40:34,667 - root - INFO - Logging configured successfully.
+2025-07-25 18:40:34,681 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-25 18:40:34,740 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-25 18:40:34,756 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-25 18:40:34,784 - src.api.main - INFO - Starting up Visual Search API...
+2025-07-25 18:40:34,784 - src.api.main - INFO - Loading CLIP model...
+2025-07-25 18:40:34,785 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-25 18:40:34,794 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-25 18:40:40,343 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-25 18:40:40,344 - src.api.main - INFO - CLIP model loaded successfully
+2025-07-25 18:40:40,344 - src.api.main - INFO - Connecting to vector database...
+2025-07-25 18:40:40,345 - src.database.vector_db - INFO - Initializing FAISS vector database
+2025-07-25 18:40:40,346 - src.database.vector_db - INFO - Initializing FAISS database with storage at: C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db
+2025-07-25 18:40:41,631 - src.database.vector_db - INFO - Loaded FAISS index from C:\Users\aarya\Videos\visual-search-engine\data/processed\chroma_db\faiss_index.bin with 289222 embeddings
+2025-07-25 18:40:43,253 - src.database.vector_db - INFO - Loaded metadata for 289222 items
+2025-07-25 18:40:43,271 - src.api.main - INFO - Vector database connected successfully
+2025-07-25 18:40:43,271 - src.api.main - INFO - Connected to existing collection: visual_search_engine
+2025-07-25 18:40:43,272 - src.api.main - INFO - Visual Search API startup completed
+2025-07-25 18:45:28,278 - src.api.main - INFO - Shutting down Visual Search API...
+2025-07-25 18:45:28,281 - src.api.main - INFO - Shutdown completed

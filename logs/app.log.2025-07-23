@@ -1,0 +1,151 @@
+2025-07-23 21:47:46,680 - root - INFO - Logging configured successfully.
+2025-07-23 21:50:23,656 - root - INFO - Logging configured successfully.
+2025-07-23 21:50:30,798 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-23 21:50:31,037 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-23 21:50:31,072 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-23 21:56:41,621 - root - INFO - Logging configured successfully.
+2025-07-23 21:56:45,812 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-23 21:56:45,900 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-23 21:56:45,928 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-23 22:04:10,911 - root - INFO - Logging configured successfully.
+2025-07-23 22:04:16,338 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-23 22:04:16,530 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-23 22:04:16,557 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-23 22:08:19,387 - root - INFO - Logging configured successfully.
+2025-07-23 22:08:23,063 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-23 22:08:23,140 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-23 22:08:23,162 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-23 22:10:04,020 - root - INFO - Logging configured successfully.
+2025-07-23 22:10:08,735 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-23 22:10:08,818 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-23 22:10:08,840 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-23 22:12:23,769 - root - INFO - Logging configured successfully.
+2025-07-23 22:12:27,551 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-23 22:12:27,630 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-23 22:12:27,645 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-23 22:15:19,430 - root - INFO - Logging configured successfully.
+2025-07-23 22:15:24,679 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-23 22:15:24,860 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-23 22:15:24,887 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-23 22:15:52,181 - __main__ - INFO - Initializing pipeline for data directory: ./data/deepfashion
+2025-07-23 22:15:52,182 - __main__ - INFO - === Step 2: Generating Embeddings ===
+2025-07-23 22:15:52,183 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-23 22:15:52,204 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-23 22:15:53,895 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-07-23 22:16:59,128 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-07-23 22:17:07,599 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-23 22:17:07,600 - src.embeddings.generator - INFO - Starting embedding generation.
+2025-07-23 22:17:07,601 - src.embeddings.generator - ERROR - Metadata file not found at ./data/deepfashion\metadata.csv
+2025-07-23 22:17:07,602 - __main__ - ERROR - Embedding generation failed: Run the 'data' step first to generate metadata.
+2025-07-23 22:26:29,117 - root - INFO - Logging configured successfully.
+2025-07-23 22:26:34,700 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-23 22:26:34,900 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-23 22:26:34,931 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-23 22:27:05,247 - __main__ - INFO - Initializing pipeline with source data from: ./data/deepfashion
+2025-07-23 22:27:05,249 - __main__ - INFO - Processed data will be stored in: C:\Users\aarya\Videos\visual-search-engine\data/processed
+2025-07-23 22:27:05,249 - __main__ - INFO - === Step 2: Generating Embeddings ===
+2025-07-23 22:27:05,249 - src.embeddings.clip_model - INFO - Loading CLIP model: openai/clip-vit-base-patch32
+2025-07-23 22:27:05,284 - src.embeddings.clip_model - INFO - Using device: CUDA (1x NVIDIA GeForce RTX 3050 Ti Laptop GPU) with dtype: torch.float16
+2025-07-23 22:27:13,918 - src.embeddings.clip_model - INFO - Enabled gradient checkpointing for memory savings.
+2025-07-23 22:27:13,919 - src.embeddings.generator - INFO - Starting embedding generation.
+2025-07-23 22:27:19,607 - src.embeddings.generator - INFO - Loaded metadata with 578424 records.
+2025-07-23 22:27:32,867 - root - INFO - Logging configured successfully.
+2025-07-23 22:27:37,759 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-23 22:27:38,023 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-23 22:27:38,082 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-23 22:28:22,324 - root - INFO - Logging configured successfully.
+2025-07-23 22:28:27,430 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-23 22:28:27,532 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-23 22:28:27,563 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-23 22:29:12,549 - root - INFO - Logging configured successfully.
+2025-07-23 22:29:17,359 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-23 22:29:17,450 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-23 22:29:17,476 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-23 22:29:59,559 - root - INFO - Logging configured successfully.
+2025-07-23 22:30:04,648 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-23 22:30:04,727 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-23 22:30:04,749 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-23 22:30:38,310 - __main__ - ERROR - Embedding generation failed: Caught KeyError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "C:\Users\aarya\anaconda3\envs\CV\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'image_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aarya\anaconda3\envs\CV\Lib\site-packages\torch\utils\data\_utils\worker.py", line 349, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aarya\anaconda3\envs\CV\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "C:\Users\aarya\Videos\visual-search-engine\src\embeddings\generator.py", line 27, in __getitem__
+    image_path = self.metadata.iloc[idx]["image_path"]
+                 ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\aarya\anaconda3\envs\CV\Lib\site-packages\pandas\core\series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aarya\anaconda3\envs\CV\Lib\site-packages\pandas\core\series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aarya\anaconda3\envs\CV\Lib\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'image_path'
+Traceback (most recent call last):
+  File "C:\Users\aarya\Videos\visual-search-engine\scripts\run_pipeline.py", line 36, in run_embedding_generation
+    generator.run()
+  File "C:\Users\aarya\Videos\visual-search-engine\src\embeddings\generator.py", line 83, in run
+    for batch_pixels, batch_indices in tqdm(dataloader, desc="Generating Embeddings"):
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aarya\anaconda3\envs\CV\Lib\site-packages\tqdm\std.py", line 1181, in __iter__
+    for obj in iterable:
+               ^^^^^^^^
+  File "C:\Users\aarya\anaconda3\envs\CV\Lib\site-packages\torch\utils\data\dataloader.py", line 733, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\aarya\anaconda3\envs\CV\Lib\site-packages\torch\utils\data\dataloader.py", line 1515, in _next_data
+    return self._process_data(data, worker_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aarya\anaconda3\envs\CV\Lib\site-packages\torch\utils\data\dataloader.py", line 1550, in _process_data
+    data.reraise()
+  File "C:\Users\aarya\anaconda3\envs\CV\Lib\site-packages\torch\_utils.py", line 750, in reraise
+    raise exception
+KeyError: Caught KeyError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "C:\Users\aarya\anaconda3\envs\CV\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'image_path'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aarya\anaconda3\envs\CV\Lib\site-packages\torch\utils\data\_utils\worker.py", line 349, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aarya\anaconda3\envs\CV\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "C:\Users\aarya\Videos\visual-search-engine\src\embeddings\generator.py", line 27, in __getitem__
+    image_path = self.metadata.iloc[idx]["image_path"]
+                 ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\aarya\anaconda3\envs\CV\Lib\site-packages\pandas\core\series.py", line 1130, in __getitem__
+    return self._get_value(key)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aarya\anaconda3\envs\CV\Lib\site-packages\pandas\core\series.py", line 1246, in _get_value
+    loc = self.index.get_loc(label)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aarya\anaconda3\envs\CV\Lib\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'image_path'
+

@@ -1,0 +1,106 @@
+# Core ML/DL Libraries
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+datasets>=2.12.0
+
+# Computer Vision & Image Processing
+Pillow>=9.5.0
+opencv-python>=4.7.0
+albumentations>=1.3.0
+
+# Numerical Computing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Data Storage & Serialization
+pyarrow>=12.0.0
+h5py>=3.8.0
+
+# Vector Databases
+chromadb>=0.4.0
+# pinecone-client>=2.2.0  # Uncomment if using Pinecone
+faiss-cpu>=1.7.4
+
+# API Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+python-multipart>=0.0.6
+
+# Web Framework for Demo
+streamlit>=1.24.0
+
+# HTTP & Web Scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+scrapy>=2.9.0
+aiohttp>=3.8.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+tqdm>=4.65.0
+rich>=13.4.0
+
+# Logging & Monitoring
+loguru>=0.7.0
+prometheus-client>=0.17.0
+psutil>=5.9.0
+
+# Development & Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.4.0
+pre-commit>=3.3.0
+
+# Jupyter for Exploration
+# jupyter>=1.0.0
+# ipywidgets>=8.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Docker & Deployment
+gunicorn>=21.0.0
+docker>=6.1.0
+
+# Image Format Support
+imageio>=2.31.0
+scikit-image>=0.20.0
+
+# Configuration & Environment
+pyyaml>=6.0
+toml>=0.10.0
+
+# Optional: GPU Memory Management
+nvidia-ml-py3>=7.352.0  # Uncomment for NVIDIA GPU monitoring
+
+# Backend & API
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Machine Learning & Data Processing
+torch
+transformers
+pandas
+numpy
+scikit-learn
+Pillow
+tqdm
+
+# Vector Databases
+# CPU version of Faiss for broader compatibility
+faiss-cpu
+chromadb-client
+pinecone
+
+# Frontend
+streamlit
+
+# Utilities
+python-dotenv

@@ -1,0 +1,114 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data directories
+data/raw/
+data/processed/
+data/embeddings/
+data/deepfashion/
+chroma_db/
+models/
+*.parquet
+*.h5
+*.hdf5
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Docker
+.docker/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# Model files
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Cache
+.cache/
+.pytest_cache/
+
+# ChromaDB
+*.sqlite3
+*.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+# Deployment files
+.env.production
+.env.local
+
+# Large data files (don't deploy to git)
+data/deepfashion/Img/
+data/processed/embeddings.npy
+*.npy
+*.parquet
+
+# Logs
+logs/
+*.log
+
+# Cache
+__pycache__/
+.pytest_cache/
