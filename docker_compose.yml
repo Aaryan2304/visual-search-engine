@@ -1,29 +1,6 @@
 version: '3.8'
 
 services:
-  # ChromaDB Vector Database
-  chromadb:
-    image: chromadb/chroma:latest
-    container_name: visual_search_chromadb
-    ports:
-      - "8000:8000"
-    volumes:
-      - ./data/chroma_data:/chroma/chroma
-    environment:
-      - CHROMA_SERVER_CORS_ALLOW_ORIGINS=["*"]
-      - CHROMA_SERVER_HOST=0.0.0.0
-      - CHROMA_SERVER_HTTP_PORT=8000
-    command: chroma run --host 0.0.0.0 --port 8000 --path /chroma/chroma
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/heartbeat"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 10s
-    restart: unless-stopped
-    networks:
-      - visual_search_network
-
   # FastAPI Backend
   visual_search_api:
     build:
@@ -36,14 +13,10 @@ services:
       - ./data:/app/data
       - ./data/models:/app/models
     environment:
-      - CHROMA_URL=http://chromadb:8000
       - ENVIRONMENT=production
       - DEBUG=false
       - DEVICE=cpu  # Set to cuda if GPU available in container
       - COLLECTION_NAME=fashion_images
-    depends_on:
-      chromadb:
-        condition: service_healthy
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
       interval: 30s
